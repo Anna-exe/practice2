@@ -59,3 +59,16 @@ button:hover {
     transform-style: preserve-3d;
     perspective: 500px;
 }
+
+/* Emoji styling */
+.item{
+    position: relative;
+    width:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    background-color: rgb(115 76 124 / 38%);
+    border-radius: 5%;
+    transition: 0.25s;
+}
