@@ -27,7 +27,8 @@ body {
     flex-direction: column;
     gap: 30px;
     padding: 40px 60px;
-    border: 2px solid antiquewhite;
+    border: 1px solid antiquewhite;
+    border-radius: 5%;
 }
 
 /* Button styling */
@@ -38,6 +39,7 @@ button {
     color: antiquewhite;
     font-size: inherit;
     font-family: inherit;
+    cursor: pointer;
 }
 button:hover {
     color:blueviolet !important;
