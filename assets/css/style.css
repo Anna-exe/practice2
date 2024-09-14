@@ -72,3 +72,12 @@ button:hover {
     border-radius: 5%;
     transition: 0.25s;
 }
+
+.item::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgb(115, 76, 124);
+    transition: 0.25s;
+    transform: rotateY(0deg);
+}
