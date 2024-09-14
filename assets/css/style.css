@@ -18,3 +18,14 @@ body {
     background: black url("../images/background.webp") no-repeat fixed center;
     background-size: cover;
 }
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 60px;
+    border: 2px solid antiquewhite;
+}
