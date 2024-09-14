@@ -71,6 +71,11 @@ button:hover {
     background-color: rgb(115 76 124 / 38%);
     border-radius: 5%;
     transition: 0.25s;
+    transform: rotateY(180deg)
+}
+
+.item.boxOpen {
+    transform: rotateY(0deg);
 }
 
 .item::after {
@@ -80,4 +85,9 @@ button:hover {
     background: rgb(115, 76, 124);
     transition: 0.25s;
     transform: rotateY(0deg);
+    backface-visibility: hidden;
+}
+
+.boxOpen:after{
+    transform: rotateY(180deg);
 }
