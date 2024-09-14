@@ -18,7 +18,7 @@ body {
     background: black url("../images/background.webp") no-repeat fixed center;
     background-size: cover;
 }
-/* Game area */
+/* Game container */
 .container {
     position: relative;
     display: flex;
@@ -47,4 +47,15 @@ h2 {
 }
 button:hover {
     color:blueviolet;
+}
+
+/* Card game area */
+.game {
+    width: 440px;
+    height: 440px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    transform-style: preserve-3d;
+    perspective: 500px;
 }
